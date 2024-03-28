@@ -1,0 +1,135 @@
+@font-face {
+  font-family: Roboto;
+  src: url(../../../public/fonts/Roboto/Roboto-Medium.ttf);
+}
+
+.container {
+  background: #ffffff;
+  color: #fff;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container .input-form {
+  padding: 5em;
+  border-radius: 25px;
+  max-width: 14em;
+  box-shadow: 0 0 50px grey;
+}
+
+.isSuccess {
+  background-color: #32de85de;
+  border-radius: 20px;
+  padding: 0.1em;
+}
+
+.isSuccess h2 {
+  color: black;
+  text-align: center;
+  font-size: 1.5em;
+  font-weight: 300;
+  font-family: Roboto, Arial, Helvetica, sans-serif;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+h1 {
+  font-size: 2em;
+  text-align: center;
+  margin-bottom: 0.5em;
+  color: #000;
+  text-align: left;
+  font-family: Roboto, Arial, Helvetica, sans-serif;
+  line-height: 0.5em;
+}
+
+.sub-header {
+  color: #000;
+  font-size: 1.25em;
+  font-family: Roboto, Arial, Helvetica, sans-serif;
+  text-decoration: underline;
+}
+
+.input-box {
+  width: 100%;
+  margin: 1em 0 1em 0;
+  height: 1.5em;
+  display: flex;
+}
+
+i {
+  position: absolute;
+}
+
+.icon {
+  color: rgb(0, 0, 0);
+  min-width: 40px;
+  padding: 5px;
+}
+
+.input-box input {
+  border-radius: 40px;
+  width: 100%;
+  padding: 5px;
+  text-align: center;
+  height: 1.25em;
+  box-shadow: 0 0 3px black;
+  font-family: Roboto, Arial, Helvetica, sans-serif;
+  border: none;
+}
+
+.input-box input::placeholder {
+  color: #000;
+}
+
+.error-message {
+  color: #ff0000;
+  font-family: Roboto, Arial, Helvetica, sans-serif;
+  font-size: 1em;
+  text-align: center;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  font-family: Roboto, Arial, Helvetica, sans-serif;
+}
+
+.remember-forgot {
+  display: flex;
+  justify-content: space-between;
+  color: #000;
+  font-family: Roboto, Arial, Helvetica, sans-serif;
+  font-size: 1em;
+}
+
+button {
+  font-size: 1.25em;
+  width: 100%;
+  margin: 0.25em auto 0.25em auto;
+  border-radius: 40px;
+  padding: 4px;
+  font-family: Roboto, Arial, Helvetica, sans-serif;
+  box-shadow: 0 0 2px black;
+  background-color: rgb(79, 146, 248);
+  color: white;
+  border: none;
+}
+
+button:hover {
+  background-color: #ffffff;
+  color: black;
+  transition-duration: 0.5s;
+}
+
+.register-link {
+  color: #000;
+  font-family: Roboto, Arial, Helvetica, sans-serif;
+  font-size: 1em;
+}
